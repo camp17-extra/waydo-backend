@@ -38,6 +38,10 @@ group :development, :test do
   # Print debug
   gem 'awesome_print'
   gem 'tapp'
+
+  # Table/Schema
+  gem 'annotate'
+  gem 'migration_comments'
 end
 
 group :development do
